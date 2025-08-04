@@ -19,15 +19,15 @@ Kali Linux	    Ethical hacking and penetration testing OS
 
 **Steps Performed**
 1. Installed Nmap:
-sudo apt update
-sudo apt install nmap
+#sudo apt update
+#sudo apt install nmap
 
 2. Determined Network Range:
 IP identified: 192.168.196.128
 CIDR range: 192.168.196.0/24
 
 3. Performed TCP SYN Scan:
-sudo nmap -sS 192.168.196.128/24 -oN scan_results.txt
+#sudo nmap -sS 192.168.196.128/24 -oN scan_results.txt
 
 4. Scan Result Summary:
 IP Address	        Open Ports	    Services	    MAC Address
@@ -46,4 +46,5 @@ IP Address	        Open Ports	    Services	    MAC Address
 File Name	                    Description
 scan_results.txt	        Raw Nmap output (SYN scan)
 scan_capture.pcapng	        Wireshark packet capture (optional)
+
 README.md	                Documentation of process and key learnings
